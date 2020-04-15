@@ -2,12 +2,12 @@ class Dog
   
   Dog.new
   
-  def name=(x)
-    x = @dogsname 
+  def name=(dogs_name)
+    @this_dogs_name = dogs_name
   end
-  
-  def name 
-    @dogsname
+ 
+  def name
+    @this_dogs_name
   end
   
   def bark 
