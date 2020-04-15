@@ -2,7 +2,7 @@ class Dog
   
   Dog.new
   
-  def name(x)
+  def name=(x)
     x = @dogsname 
   end
   
