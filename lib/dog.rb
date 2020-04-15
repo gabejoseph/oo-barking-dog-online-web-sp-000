@@ -1,3 +1,4 @@
 class Dog 
-  def let 
+  Dog.new
+end
     
